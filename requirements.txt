@@ -1,0 +1,19 @@
+# Web app only (inference pipeline + FastAPI server). Coaching feedback is rule-based
+# (app/coach.py) -- no LLM dependency, nothing to strip.
+numpy==2.3.5
+pandas==3.0.5
+pyarrow==25.0.1
+opencv-python-headless==5.0.0.93
+scikit-learn==1.9.1
+joblib==1.6.0
+
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+pydantic==2.13.5
+torch==2.14.0
+torchvision==0.29.0
+ultralytics==8.4.161
+lapx==0.10.0
+transformers==5.17.0
+imageio-ffmpeg==0.6.0

@@ -1,0 +1,51 @@
+{
+  "tag": "residual_seed2",
+  "lr": 0.0003,
+  "hidden": 128,
+  "weight_decay": 0.0001,
+  "seed": 2,
+  "patience": 15,
+  "residual_targets": true,
+  "select_metric": "spearman",
+  "best_epoch_val_select_score": 0.6316684194915582,
+  "test_mean_spearman": 0.5796544382415831,
+  "test_mean_r_l2": 2.6031646735360554,
+  "test_mean_partial_spearman_vs_overall": 0.12536951339578653,
+  "test_overall_spearman": 0.5883176530249209,
+  "per_part": {
+    "head": {
+      "n": 496,
+      "spearman": 0.5799029732744838,
+      "r_l2": 2.500936342450855,
+      "partial_spearman_vs_overall": 0.1961657598783824
+    },
+    "shoulder": {
+      "n": 496,
+      "spearman": 0.5832168707070612,
+      "r_l2": 2.649599554806047,
+      "partial_spearman_vs_overall": 0.10289681163313436
+    },
+    "hands": {
+      "n": 496,
+      "spearman": 0.5904255290510768,
+      "r_l2": 2.621989949290278,
+      "partial_spearman_vs_overall": 0.1556527698815411
+    },
+    "hips": {
+      "n": 496,
+      "spearman": 0.56830202534789,
+      "r_l2": 2.696049377128316,
+      "partial_spearman_vs_overall": 0.1081677512964439
+    },
+    "feet": {
+      "n": 496,
+      "spearman": 0.576189633037848,
+      "r_l2": 2.5472481440047803,
+      "partial_spearman_vs_overall": 0.06255624706772042
+    }
+  },
+  "n_train": 3662,
+  "n_val": 655,
+  "n_test": 496,
+  "n_exemplars": 50
+}
